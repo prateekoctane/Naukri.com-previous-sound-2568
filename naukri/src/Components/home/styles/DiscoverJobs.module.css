@@ -1,0 +1,30 @@
+.container {
+    /* border: 1px solid black; */
+    margin-top: 50px;
+}
+
+.btnContainer {
+    z-index: 1;
+    background-color: rgb(50, 128, 50);
+    border: 1px solid black;
+    max-width: 600px;
+    height: 500px;
+    margin-left: 700px;
+    margin-top: -450px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    overflow-x: scroll;
+    /* overflow: hidden; */
+    scroll-behavior: smooth;
+    transition: scroll-behavior 10s ease-in-out;
+    /* position: absolute; */
+}
+
+/* btn { */
+    /* position: relative; */
+    /* border: 1px solid black; */
+    /* min-width: 100px; */
+    /* height: 100px; */
+/* } */
+

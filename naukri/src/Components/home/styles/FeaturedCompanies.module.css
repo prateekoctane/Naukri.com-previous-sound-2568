@@ -1,0 +1,24 @@
+.container{
+    /* border: 1px solid black; */
+    margin-top: 50px;
+}
+.cardContainer{
+    /* border: 1px solid black; */
+    max-width: 1200px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    overflow-x: scroll;
+    overflow: hidden;
+    scroll-behavior:smooth;
+    transition: scroll-behavior 10s ease-in-out;
+    /* position: absolute; */
+}
+btn{
+    /* position: relative; */
+    border: 1px solid black;
+    min-width: 100px;
+    height: 100px;
+}
