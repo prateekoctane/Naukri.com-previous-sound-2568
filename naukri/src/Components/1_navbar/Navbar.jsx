@@ -19,7 +19,7 @@ export function Navbar() {
         </Box>
 
         <Box display="flex" marginLeft="500px" border="1px" w="200px" justifyContent="space-around">
-            <LoginButton />
+            <LoginButton /> 
             <RegisterButton />
         </Box>
 
