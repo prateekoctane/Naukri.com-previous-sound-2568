@@ -6,10 +6,11 @@ import { LoginButton } from "./LoginButton";
 import { RegisterButton } from "./RegisterButton";
 import { ForEmployers } from "./ForEmployers";
 import { NaukriImage } from "./NaukriImage";
+import { Link } from "react-router-dom";
 export function Navbar() {
     return (<Box display="flex" border="1px" overflow="hidden" w="100%">
 
-        <NaukriImage/>
+         <Link to="/"><NaukriImage/></Link>
 
         <Box display="flex" marginLeft="200px" justifyContent="space-between" border="1px" w="250px">
             <Jobs />
