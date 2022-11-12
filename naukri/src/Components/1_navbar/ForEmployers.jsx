@@ -18,7 +18,7 @@ export function ForEmployers() {
             <MenuList>
                 <MenuItem>Buy Online</MenuItem>
                 <MenuItem>Hiring Solutions</MenuItem>
-                <MenuItem>Employer Login</MenuItem>
+                <MenuItem>Employer/Admin Login</MenuItem>
             </MenuList>
         </Portal>
     </Menu>
