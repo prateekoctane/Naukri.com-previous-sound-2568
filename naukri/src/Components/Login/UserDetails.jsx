@@ -1,12 +1,12 @@
 import { Box, Heading, Input, Button, Image, Text, Flex, Link } from "@chakra-ui/react";
 
 export function UserDetails() {
-  return <Box display="flex" m="auto">
+  return <Box display="flex" m="auto" >
 
 
 
-    <Box border="1px" w="400px" ml="50px" h="400px">
-      <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ0wODxC8jPNQdAj4NRUYgKFgE-uz-1sb19g&usqp=CAU" alt="" border="1px" h="80px" w="80px" m="auto" borderRadius="50%" mt="-40px" />
+    <Box w="400px" ml="50px" h="400px" boxShadow="lg">
+      <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ0wODxC8jPNQdAj4NRUYgKFgE-uz-1sb19g&usqp=CAU" alt="" h="80px" w="80px" m="auto" borderRadius="50%" boxShadow="lg" mt="-40px" />
       <Text fontSize="lg" fontWeight="bold">Prateek Bhattacharya</Text>
 
       <Text>Full Stack Web Developer</Text>
