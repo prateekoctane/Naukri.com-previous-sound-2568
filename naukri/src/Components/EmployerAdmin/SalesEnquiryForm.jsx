@@ -17,7 +17,7 @@ export function SalesEnquiryForm() {
          <Button type="submit" w="325px" mt="20px" bg="purple.400">Login</Button>
 
       </FormControl>
-      <Link> <Text mt="20px">Forget Password ?</Text> </Link>
+      <Link color="blue.400"> <Text mt="20px">Forget Password ?</Text> </Link>
       <Text align="left" mt="20px">Keep your account safe. <Link color="blue.400">Learn How</Link>  </Text>
       <Box display="flex" justifyContent="space-between" alignItems="center">
       <Text align="left" mt="20px">Have a Query?  <Link color="blue.400">Contact Us</Link>  </Text>
