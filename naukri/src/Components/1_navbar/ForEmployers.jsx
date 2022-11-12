@@ -9,7 +9,9 @@ import {
     MenuDivider,
     Portal
 } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 import { ChevronDownIcon } from "@chakra-ui/icons";
+
 
 export function ForEmployers() {
     return <Menu>
@@ -18,7 +20,7 @@ export function ForEmployers() {
             <MenuList>
                 <MenuItem>Buy Online</MenuItem>
                 <MenuItem>Hiring Solutions</MenuItem>
-                <MenuItem>Employer/Admin Login</MenuItem>
+                <MenuItem> <Link to="/employer-admin">Employer/Admin Login</Link> </MenuItem>
             </MenuList>
         </Portal>
     </Menu>
