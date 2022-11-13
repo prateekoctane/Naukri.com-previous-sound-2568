@@ -8,6 +8,8 @@ import { useState, useRef } from "react";
 import { JobPostingServices } from "../Components/EmployerAdmin/JobPostingServices";
 import { BestTalent } from "../Components/EmployerAdmin/BestTalent";
 import { RecruiterApp } from "../Components/EmployerAdmin/RecruiterApp";
+import { SuccessStories } from "../Components/EmployerAdmin/SuccessStories";
+import { Footer } from "../Components/home/Footer";
 
 export function EmployerAdmin() {
     const [SaleEnq, setSaleEnq] = useState(true);
@@ -84,5 +86,9 @@ export function EmployerAdmin() {
         </Box>
 
         <RecruiterApp/>
+        
+        <SuccessStories/>
+
+        <Footer/>
     </Box>
 }
