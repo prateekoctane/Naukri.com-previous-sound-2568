@@ -20,7 +20,7 @@ export function Navbar() {
 
         <Box display="flex" marginLeft="500px" border="1px" w="200px" justifyContent="space-around">
             <LoginButton /> 
-            <RegisterButton />
+            <Link to="/register"><RegisterButton /></Link>
         </Box>
 
         <Box>
