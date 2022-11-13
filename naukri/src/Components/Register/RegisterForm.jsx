@@ -36,7 +36,7 @@ export function RegisterForm() {
             mobile: form.mobile,
             status: form.status,
             whatsappUpdates: form.whatsappUpdates
-        }).catch(err=>alert(err.message+",fill correct details and try again"))
+        }).catch(err=> {return (alert(err.message+",fill correct details and try again"))})
        name.current.value = "";
        email.current.value = "";
        password.current.value = "";
@@ -52,7 +52,7 @@ export function RegisterForm() {
         status: "",
         whatsappUpdates: "no"
        })
-         
+       alert("Register successfull")  
     }
     function btn(v){
         

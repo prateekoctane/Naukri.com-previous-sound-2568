@@ -80,6 +80,15 @@
       "status": "fresher",
       "whatsappUpdates": "yes",
       "id": 9
+    },
+    {
+      "name": "rishabh",
+      "email": "bhatt@gmail.com",
+      "password": "djrishabh",
+      "mobile": "24242424",
+      "status": "experienced",
+      "whatsappUpdates": "yes",
+      "id": 10
     }
   ],
   "Admins": [
