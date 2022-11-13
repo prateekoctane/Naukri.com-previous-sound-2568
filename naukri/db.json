@@ -2,20 +2,92 @@
   "users": [
     {
       "id": 1,
-      "Name":"Prateek Bhattacharya",
-      "email":"prateekoctane@gmail.com",
-      "password":"dragonfly",
-      "mobile":"7878787878",
-      "status":"fresher",
-      "whatsapp-updates":"no"
+      "name": "Prateek Bhattacharya",
+      "email": "prateekoctane@gmail.com",
+      "password": "dragonfly",
+      "mobile": "7878787878",
+      "status": "fresher",
+      "whatsapp-updates": "no"
+    },
+    {
+      "name": "dasfasfa",
+      "email": "afdafasf",
+      "password": "dfaffffa",
+      "mobile": "335355",
+      "status": "experienced",
+      "whatsappUpdates": "yes",
+      "id": 2
+    },
+    {
+      "name": "max payne",
+      "email": "maxpayne@gmail.com",
+      "password": "hellwasfull",
+      "mobile": "2344242423",
+      "status": "fresher",
+      "whatsappUpdates": "yes",
+      "id": 3
+    },
+    {
+      "name": "aman",
+      "email": "amankumar@gmail.com",
+      "password": "holylord",
+      "mobile": "2342423",
+      "status": "experienced",
+      "whatsappUpdates": "yes",
+      "id": 4
+    },
+    {
+      "name": "adit ",
+      "email": "adit@gmail.com",
+      "password": "getgoing",
+      "mobile": "2343242",
+      "status": "experienced",
+      "whatsappUpdates": "yes",
+      "id": 5
+    },
+    {
+      "name": "shivam",
+      "email": "shivam@gmail.com",
+      "password": "hellohello",
+      "mobile": "2424244",
+      "status": "experienced",
+      "whatsappUpdates": "yes",
+      "id": 6
+    },
+    {
+      "name": "dfasf",
+      "email": "fsaasdfasf",
+      "password": "fdafsadf",
+      "mobile": "3242424",
+      "status": "experienced",
+      "whatsappUpdates": "yes",
+      "id": 7
+    },
+    {
+      "name": "rita ",
+      "email": "rita@gmail.com",
+      "password": "hello",
+      "mobile": "2342423",
+      "status": "experienced",
+      "whatsappUpdates": "yes",
+      "id": 8
+    },
+    {
+      "name": "samerr",
+      "email": "akflksjfa",
+      "password": "sjfsalfa",
+      "mobile": "232424",
+      "status": "fresher",
+      "whatsappUpdates": "yes",
+      "id": 9
     }
   ],
   "Admins": [
     {
       "id": 1,
-      "Name":"Manik Oberoi",
-      "email":"manikoberoi@gmail.com",
-      "password":"greenwich"
+      "Name": "Manik Oberoi",
+      "email": "manikoberoi@gmail.com",
+      "password": "greenwich"
     }
   ],
   "profile": {
