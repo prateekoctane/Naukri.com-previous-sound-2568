@@ -1,0 +1,24 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "name": "Prateek Bhattacharya",
+      "email": "prateekoctane@gmail.com",
+      "password": "helloworld",
+      "mobile": "7845784578",
+      "status": "fresher",
+      "whatsapp-updates": "no"
+    }
+  ],
+  "Admin": [
+    {
+      "id": 1,
+      "name": "Manik Oberoi",
+      "email": "manikoberoi@gmail.com",
+      "password": "hydrochloric"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
