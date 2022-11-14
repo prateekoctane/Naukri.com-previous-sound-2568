@@ -11,17 +11,19 @@ import { RegisterContextProvider } from './Contexts/RegisterContext';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <ChakraProvider>
-   <BrowserRouter>
-  
-    <RegisterContextProvider>
+    <BrowserRouter>
 
-    {/* // <React.StrictMode> */}
-      <App />
-    {/* // </React.StrictMode> */}
+      <RegisterContextProvider>
+        
 
-    </RegisterContextProvider>
-     
-    </BrowserRouter>  
+          {/* // <React.StrictMode> */}
+          <App />
+          {/* // </React.StrictMode> */}
+        
+
+      </RegisterContextProvider>
+
+    </BrowserRouter>
   </ChakraProvider>
 );
 
