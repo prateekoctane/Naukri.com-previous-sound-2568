@@ -89,6 +89,24 @@
       "status": "experienced",
       "whatsappUpdates": "yes",
       "id": 10
+    },
+    {
+      "name": "aman kumar",
+      "email": "amankumar@gmail.com",
+      "password": "thebluewahle",
+      "mobile": "234444242424",
+      "status": "experienced",
+      "whatsappUpdates": "yes",
+      "id": 11
+    },
+    {
+      "name": "prateek",
+      "email": "prateosfafkfa@gmial.com",
+      "password": "23422342",
+      "mobile": "3242344234",
+      "status": "fresher",
+      "whatsappUpdates": "yes",
+      "id": 12
     }
   ],
   "Admins": [
