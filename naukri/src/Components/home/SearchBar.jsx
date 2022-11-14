@@ -2,19 +2,19 @@ import { Box, Text, Heading, Image, Input, Select, Button } from "@chakra-ui/rea
 import { SearchIcon } from "@chakra-ui/icons";
 
 export function SearchBar() {
-    return <Box mt="50px">
+    return <Box mt="50px" h="auto">
         <Heading>Find your dream job now</Heading>
 
-        <Text fontSize="lg">5 lakh+ jobs for you to explore</Text>
+        <Text fontSize="lg" marginTop="20px" color="blue.600">5 lakh+ jobs for you to explore</Text>
 
-        <Box display="flex" w="75%" margin="auto" border="1px" h="70px" alignItems="center" borderRadius="50px">
+        <Box display="flex" w="75%" margin="auto"  h="70px" mt="50px" alignItems="center" boxShadow="lg" borderRadius="50px">
 
           <SearchIcon boxSize="30px" ml="20px" color="gray" />
 
-          <Box display="flex" w="70%" margin="auto" border="1px">
+          <Box display="flex" w="70%" margin="auto" bt="20px">
 
-            <Input placeholder="Enter skills | designations | companies"></Input>
-            <Select placeholder='Select Experience'>
+            <Input placeholder="Enter skills | designations | companies" border="none"></Input>
+            <Select placeholder='Select Experience' border="none">
                 <option value='1'>1 years</option>
                 <option value='2'>2 years</option>
                 <option value='3'>3 years</option>
@@ -46,7 +46,7 @@ export function SearchBar() {
                 <option value="29">29 years</option>
                 <option value="30">30 years</option>
             </Select>
-            <Input placeholder="Enter Location"></Input>
+            <Input placeholder="Enter Location" border="none"></Input>
           </Box>
           
           <Button borderRadius="50px" w="150px" h="50px" mr="20px" bg="purple.600" color="gray.50">Search</Button>
@@ -54,7 +54,7 @@ export function SearchBar() {
 
         {/* job category buttons */}
          
-        <Box mt="50px">
+        <Box mt="70px">
             <Button variant='outline' w="200px" h="65px" borderRadius="20px 0 20px"> <Image boxSize="35px" mr="20px" position="relative" src="https://static.naukimg.com/s/0/0/i/trending-naukri/remote.svg"/> Remote</Button>
             <Button variant='outline' w="200px" h="65px" borderRadius="20px 0 20px"> <Image boxSize="35px" mr="20px" position="relative" src="https://static.naukimg.com/s/0/0/i/trending-naukri/mnc.svg"/> MNC</Button>
             <Button variant='outline' w="200px" h="65px" borderRadius="20px 0 20px"> <Image boxSize="35px" mr="20px" position="relative" src="https://static.naukimg.com/s/0/0/i/trending-naukri/marketing.svg"/> Marketing</Button>
