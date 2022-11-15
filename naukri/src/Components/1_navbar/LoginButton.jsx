@@ -1,6 +1,11 @@
 import { Box, useDisclosure, Input, Tag } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import React from "react";
+import { useContext } from "react";
+import { LoginContext } from "../../Contexts/LoginContext";
+// import { Navigate } from "react-router-dom";
+// import { Login } from "../../Routes/Login";
+import axios from "axios";
 
 import {
   Drawer,
@@ -17,13 +22,46 @@ import {
 
 export function LoginButton() {
 
-  
+  const { isAuth, setIsAuth, form, setForm } = useContext(LoginContext);
 
 
   const { isOpen, onOpen, onClose } = useDisclosure()
   const btnRef = React.useRef()
 
-  
+  function fetchData(){
+     axios.get(`http://localhost:3000/users`).then(res=>validate(res.data)).catch(err=>console.log(err))
+  }
+
+  function validate(data){
+    let flag = false;
+    data.map((user)=>{
+      if(user.email === form.email && user.password === form.password){
+        flag = true;
+      }
+
+    });
+
+    if(flag === true){
+      console.log("login successful")
+       setIsAuth(prev=> prev=true);
+       
+      return;
+     
+    }else{
+      console.log("wrong email or password, try again !!");
+      setIsAuth(false);
+      return;
+      // return <Navigate to="/login" element={<Login/>} />
+    }
+
+  }
+  function getData(e){
+    const { value, name } = e.target;
+    setForm({...form, [name]:value });
+    
+  }
+
+  console.log("isAuth", isAuth)
   return (
     <>
       <Button ref={btnRef} colorScheme='teal' onClick={onOpen} h="30px">
@@ -43,11 +81,11 @@ export function LoginButton() {
 
           <DrawerBody>
             <Tag>Email or User-Name</Tag>
-            <Input type="text" placeholder='Enter Email or UserName'  />
+            <Input type="email" placeholder='Enter Email or UserName' name="email" value={form.email} onChange={(e)=>getData(e)} />
             <Tag mt="20px">Password</Tag>
-            <Input type="password" placeholder='Enter Password' />
+            <Input type="password" placeholder='Enter Password' name="password" value={form.password} onChange={(e)=>getData(e)} />
             <Link to="/login">
-            <Button mt="20px" w="270px" bg="pink.600" onClick={isOpen}>Login</Button>
+            <Button mt="20px" w="270px" bg="pink.600" onClick={fetchData}>Login</Button>
             </Link>
           </DrawerBody>
 
