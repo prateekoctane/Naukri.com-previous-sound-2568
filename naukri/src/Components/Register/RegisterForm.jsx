@@ -29,7 +29,7 @@ export function RegisterForm() {
      function submit(form){
          
         console.log(form, "form details");
-        axios.post(`http://localhost:3000/users`,{
+        axios.post(`https://localhost:3000/users`,{
             name: form.name,
             email: form.email,
             password: form.password,

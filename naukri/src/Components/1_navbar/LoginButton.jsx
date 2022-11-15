@@ -54,7 +54,7 @@ export function LoginButton() {
   
   return (
     <>
-      <Button ref={btnRef} colorScheme='teal' onClick={onOpen}>
+      <Button ref={btnRef} colorScheme='teal' onClick={onOpen} h="30px">
         Login
       </Button>
       <Drawer

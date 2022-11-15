@@ -4,9 +4,10 @@
 }
 
 .btnContainer {
-    z-index: 1;
-    background-color: rgb(50, 128, 50);
-    border: 1px solid black;
+    z-index: 2;
+    background-color: rgb(183, 201, 218);
+    /* border: 1px solid black; */
+    border-radius: 20px;
     max-width: 600px;
     height: 500px;
     margin-left: 700px;
@@ -15,7 +16,7 @@
     align-items: center;
     gap: 20px;
     overflow-x: scroll;
-    /* overflow: hidden; */
+    overflow: hidden;
     scroll-behavior: smooth;
     transition: scroll-behavior 10s ease-in-out;
     /* position: absolute; */

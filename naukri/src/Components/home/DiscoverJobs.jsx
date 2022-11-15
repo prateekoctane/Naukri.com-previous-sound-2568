@@ -21,7 +21,7 @@ export function DiscoverJobs() {
 
   return <Box mt="100px">
 
-    <Box border="1px" w="90%" m="auto" h="400px" bg="pink.100">
+    <Box boxShadow="lg" borderRadius="10px" w="90%" m="auto" h="400px" >
 
       <Box ml="100px" mt="30px">
         <Image src="https://static.naukimg.com/s/0/0/i/role-collection.png" atl="man" boxSize="150px" />
@@ -34,35 +34,35 @@ export function DiscoverJobs() {
     {/* <Box border="1px solid blue" w="40%" h="500px" ml="700px" zIndex="1" mt="-450px" bg="green.100"></Box> */}
     <div className={styles.btnContainer} ref={swipe}>
 
-      <Box display="flex" p="40px 0px 40px 0px" gap="50px">
-        <Grid minWidth="600px" gap="20px" templateColumns="repeat(2,1fr)" w="70%" border="1px" h="400px" p="30px">
+      <Box display="flex" p="40px 0px 40px 0px" gap="50px" boxShadow="lg" >
+        <Grid minWidth="600px" gap="20px" templateColumns="repeat(2,1fr)" w="70%"  h="400px" p="30px">
 
           <Button h="90px" noOfLines={2}>Full Stack Developer <Text>20K+ Jobs</Text> </Button>
+          <Button h="90px" noOfLines={2}>Mobile App Developer <Text>20K+ Jobs</Text> </Button>
           <Button h="90px" noOfLines={2}>Full Stack Developer <Text>20K+ Jobs</Text> </Button>
+          <Button h="90px" noOfLines={2}>Front End Developer <Text>20K+ Jobs</Text> </Button>
           <Button h="90px" noOfLines={2}>Full Stack Developer <Text>20K+ Jobs</Text> </Button>
-          <Button h="90px" noOfLines={2}>Full Stack Developer <Text>20K+ Jobs</Text> </Button>
-          <Button h="90px" noOfLines={2}>Full Stack Developer <Text>20K+ Jobs</Text> </Button>
-          <Button h="90px" noOfLines={2}>Full Stack Developer <Text>20K+ Jobs</Text> </Button>
+          <Button h="90px" noOfLines={2}>Technical Lead <Text>20K+ Jobs</Text> </Button>
         </Grid>
 
-        <Grid minWidth="600px" gap="20px" templateColumns="repeat(2,1fr)" w="70%" border="1px" h="400px" p="30px">
+        <Grid minWidth="600px" gap="20px" templateColumns="repeat(2,1fr)" w="70%"  h="400px" p="30px">
 
-          <Button h="90px" noOfLines={2}>Full Developer <Text>20K+ Jobs</Text> </Button>
+          <Button h="90px" noOfLines={2}>Cyber Security <Text>20K+ Jobs</Text> </Button>
           <Button h="90px" noOfLines={2}>Full Stack Developer <Text>20K+ Jobs</Text> </Button>
+          <Button h="90px" noOfLines={2}>Technical Architect <Text>20K+ Jobs</Text> </Button>
           <Button h="90px" noOfLines={2}>Full Stack Developer <Text>20K+ Jobs</Text> </Button>
-          <Button h="90px" noOfLines={2}>Full Stack Developer <Text>20K+ Jobs</Text> </Button>
-          <Button h="90px" noOfLines={2}>Full Stack Developer <Text>20K+ Jobs</Text> </Button>
-          <Button h="90px" noOfLines={2}>Full Stack Developer <Text>20K+ Jobs</Text> </Button>
+          <Button h="90px" noOfLines={2}>Business Analyst <Text>20K+ Jobs</Text> </Button>
+          <Button h="90px" noOfLines={2}>Data Scientist <Text>20K+ Jobs</Text> </Button>
         </Grid>
 
-        <Grid minWidth="600px" gap="20px" templateColumns="repeat(2,1fr)" w="70%" border="1px" h="400px" p="30px">
+        <Grid minWidth="600px" gap="20px" templateColumns="repeat(2,1fr)" w="70%"  h="400px" p="30px">
 
+          <Button h="90px" noOfLines={2}>Product Manager <Text>20K+ Jobs</Text> </Button>
           <Button h="90px" noOfLines={2}>Full Stack Developer <Text>20K+ Jobs</Text> </Button>
+          <Button h="90px" noOfLines={2}>Reserch Analyst <Text>20K+ Jobs</Text> </Button>
           <Button h="90px" noOfLines={2}>Full Stack Developer <Text>20K+ Jobs</Text> </Button>
-          <Button h="90px" noOfLines={2}>Full Stack Developer <Text>20K+ Jobs</Text> </Button>
-          <Button h="90px" noOfLines={2}>Full Stack Developer <Text>20K+ Jobs</Text> </Button>
-          <Button h="90px" noOfLines={2}>Full Stack Developer <Text>20K+ Jobs</Text> </Button>
-          <Button h="90px" noOfLines={2}>Full Stack Developer <Text>20K+ Jobs</Text> </Button>
+          <Button h="90px" noOfLines={2}>Functional Consultant <Text>20K+ Jobs</Text> </Button>
+          <Button h="90px" noOfLines={2}>Branch Manager<Text>20K+ Jobs</Text> </Button>
         </Grid>
       </Box>
     </div>

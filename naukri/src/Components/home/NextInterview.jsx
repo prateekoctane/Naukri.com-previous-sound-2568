@@ -6,14 +6,14 @@ export function NextInterview() {
 
 
 
-    return <Box  border="1px solid black" w="90%" m="auto" mt="70px">
+    return <Box boxShadow="lg" borderRadius="20px" w="90%" m="auto" mt="70px">
 
         <Heading  align="left" mt="150px" w="300px" ml="50px">Prepare for your next interview</Heading>
         <Image src="https://static.naukimg.com/s/0/0/i/ab-interview.png" alt="people" w="250px" ml="50px"/>
 
        <Flex gap="10" mt="-250px">
 
-        <Box border="1px" w="500px" h="450px" mt="-150px" ml="400px">
+        <Box  w="500px" h="450px" mt="-150px" ml="400px">
             <Text fontSize="xl" fontWeight="bold">Interview questions by company</Text>
 
             <Grid gridTemplateColumns='repeat(2,1fr)' gap="4" m="20px">
@@ -63,11 +63,11 @@ export function NextInterview() {
                     </Box>
                 </Button>
             </Grid>
-
-            <Link fontSize="lg">View all companies <ChevronRightIcon /> </Link>
+             
+            <Link fontSize="lg" >View all companies <ChevronRightIcon /> </Link>
         </Box>
-        <Box border="1px"  w="400px" h="450px" mt="-150px" lineHeight="50px">
-            <Text fontSize="xl" fontWeight="bold">Interview questions by company</Text> 
+        <Box  w="400px" h="450px" mt="-150px" lineHeight="50px">
+            <Text fontSize="xl" fontWeight="bold">Interview questions by Role</Text> 
             <Text fontSize="lg"> <Link>Software Engineer</Link>   (7.2K+ questions)</Text> <hr style={{width:"300px", margin:"auto"}}/>
             <Text fontSize="lg"> <Link>Business Analyst </Link>   (2.8K+ questions)</Text> <hr style={{width:"300px", margin:"auto"}}/>
             <Text fontSize="lg"> <Link>Consultant       </Link>   (2.4K+ questions)</Text> <hr style={{width:"300px", margin:"auto"}}/>
