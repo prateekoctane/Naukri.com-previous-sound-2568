@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import React from "react";
 import { useContext } from "react";
 import { LoginContext } from "../../Contexts/LoginContext";
+// import { Navigate } from "react-router-dom";
+// import { Login } from "../../Routes/Login";
 import axios from "axios";
 
 import {
@@ -27,7 +29,7 @@ export function LoginButton() {
   const btnRef = React.useRef()
 
   function fetchData(){
-     axios.get(`http://localhost:3001/users`).then(res=>validate(res.data)).catch(err=>console.log(err))
+     axios.get(`http://localhost:3000/users`).then(res=>validate(res.data)).catch(err=>console.log(err))
   }
 
   function validate(data){
@@ -41,17 +43,25 @@ export function LoginButton() {
 
     if(flag === true){
       console.log("login successful")
+       setIsAuth(prev=> prev=true);
+       
+      return;
+     
     }else{
-      console.log("wrong email or password, try again !!")
+      console.log("wrong email or password, try again !!");
+      setIsAuth(false);
+      return;
+      // return <Navigate to="/login" element={<Login/>} />
     }
 
   }
   function getData(e){
     const { value, name } = e.target;
     setForm({...form, [name]:value });
+    
   }
 
-  
+  console.log("isAuth", isAuth)
   return (
     <>
       <Button ref={btnRef} colorScheme='teal' onClick={onOpen} h="30px">
