@@ -34,22 +34,22 @@ export function LoginButton() {
 
   function validate(data){
     let flag = false;
-    data.map((user)=>{
+    data.map((user)=>{ 
       if(user.email === form.email && user.password === form.password){
         flag = true;
       }
-
+    
     });
 
     if(flag === true){
       console.log("login successful")
-       setIsAuth(prev=> prev=true);
+      setIsAuth(true);
        
       return;
      
     }else{
       console.log("wrong email or password, try again !!");
-      setIsAuth(false);
+      setIsAuth(false)
       return;
       // return <Navigate to="/login" element={<Login/>} />
     }
