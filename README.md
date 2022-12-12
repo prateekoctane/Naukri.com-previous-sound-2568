@@ -13,4 +13,13 @@ Construct Week Project RCT-101
 • Chakra UI <br>
 • Javascript <br>
 
+<hr>
+<h2>Project Looks Like</h2>
+<img src="https://github.com/prateekoctane/previous-sound-2568/blob/main/naukri/public/naukri.PNG" alt="naukri homepage" />
+<hr>
+<img src="https://github.com/prateekoctane/previous-sound-2568/blob/main/naukri/public/naukri%20register2.PNG" alt="naukri register page" />
+<hr>
+<img src="https://github.com/prateekoctane/previous-sound-2568/blob/main/naukri/public/employer-admin.PNG" alt="naukri register page" />
+
+
 
