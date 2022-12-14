@@ -1,5 +1,5 @@
 # Naukri.com Clone
-Construct Week Project RCT-101
+<h2>An individual project of 5 days that I made during the construct week in Masai School. I cloned Naukri.com. Naukri.com is an Indian employment website operating in India and Middle East.</h2>
 <hr>
 <h2>Features</h2>
 • Home Page <br>
